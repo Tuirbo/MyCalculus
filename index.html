@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalculus</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href ="./css/reset.css" />
+</head>
+<body>
+    <section class="Main-block">
+        <div class = "container">
+            <div class="block__content">
+                <div class="Calculator">
+                    <div class="Calculator__answer-field">
+                        <input class="answer-field" type="text">
+                    </div>
+                    <div class="Calculator__func-buttons">
+                        <ul class="func-buttons__items">
+                            <li class="func-buttons__item AC">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        AC
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="func-buttons__item change-symbol">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        +/-
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="func-buttons__item percent"> 
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        %
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="func-buttons__item calc">                                
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        ÷
+                                    </p>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="number-buttons__items">
+                            <li class="number-buttons__item" >
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        7
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        8
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        9
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="func-buttons__item calc">                                
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        ×
+                                    </p>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="number-buttons__items">
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        4
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        5
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        6
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="func-buttons__item calc">                                
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        -
+                                    </p>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="number-buttons__items">
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        1
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        2
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        3
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="func-buttons__item calc">                                
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        +
+                                    </p>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="number-buttons__items">
+                            <li class="number-buttons__item big_butt">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        0
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        .
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="number-buttons__item calc">
+                                <button onclick="GetValue(this)">
+                                    <p>
+                                        =
+                                    </p>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./scripts/calculus.js"></script>
+</body>
+</html>
