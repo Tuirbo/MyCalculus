@@ -23,7 +23,7 @@ function GetValue(element)
         {
             if (digit == "+/-") 
             {
-                if (number !== "") 
+                if (number != "") 
                 {
                     number = (parseFloat(number) * -1).toString();
                     answerField.value = number;
@@ -31,7 +31,7 @@ function GetValue(element)
             } 
             else if (digit == "%") 
             {
-                if (number !== "") {
+                if (number != "") {
                     number = (parseFloat(number) / 100).toString();
                     answerField.value = number;
                 }
